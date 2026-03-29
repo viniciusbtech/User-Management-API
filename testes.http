@@ -1,0 +1,32 @@
+### Listar todos os usuários
+GET http://localhost:3000/users
+
+###
+
+### Buscar usuário por ID
+GET http://localhost:3000/users/1
+
+###
+
+### Criar um novo usuário
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Carlos"
+}
+
+###
+
+### Atualizar um usuário
+PUT http://localhost:3000/users/1
+Content-Type: application/json
+
+{
+    "name": "Alice Silva"
+}
+
+###
+
+### Deletar um usuário
+DELETE http://localhost:3000/users/3
